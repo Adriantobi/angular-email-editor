@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { EmailEditorComponent } from 'email-editor';
+import { EmailEditorComponent } from 'angular-email-editor';
 
 import sample from './sample.json';
 
@@ -13,10 +13,9 @@ export class ExampleComponent implements OnInit {
     appearance: {
       theme: 'modern_light',
     },
-    version: 'latest'
+    version: 'latest',
   };
   scriptUrl = 'https://editor.unlayer.com/embed.js?2';
-
 
   constructor() {}
 
